@@ -23,14 +23,14 @@ public class SnakeLadders{
 	}
 	public static boolean ladder(int i,int j) {
 		//ladder is in 3rd place thats the co-ordinate [0,3] i.e, i=0 and j=2
-		if(i==0 && j==3)
+		if(i==0 && j==2)
 		{
 			return true;
 		}
 		else
 		{
 		return false;
-	}
+	     }
 	}
 	public static boolean gameOver(int score) {
 		//if the score is greater than 9 you win. 
